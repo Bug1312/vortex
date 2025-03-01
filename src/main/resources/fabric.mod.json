@@ -1,0 +1,42 @@
+{
+	"schemaVersion":1,
+	"id":"vortex",
+	"version":"${version}",
+	"name":"Vortex",
+	"description":"A new take on TARDIS travel in Minecraft. Navigate using an immersive visual map instead of coordinates. Debuting with the Junk TARDIS at Blanketcon '25!",
+	"authors":[
+		"Bug1312",
+		"ranafangirl"
+	],
+	"contact":{
+		"email":"bug@bug1312.com"
+	},
+	"license":"ARR",
+	"icon":"assets/vortex/icon.png",
+	"environment":"*",
+	"entrypoints":{
+		"main":[
+			"com.bug1312.vortex.VortexMod"
+		],
+		"client":[
+			"com.bug1312.vortex.VortexModClient"
+		]
+	},
+	"accessWidener":"vortex.aw",
+	"mixins":[
+		"vortex.mixins.json",
+		{
+			"config":"vortex.client.mixins.json",
+			"environment":"client"
+		}
+	],
+	"depends":{
+		"fabricloader":">=0.16.9",
+		"minecraft":"~1.21.1",
+		"java":">=21",
+		"fabric-api":"*"
+	},
+	"suggests":{
+		"imm_ptl_core":"*"
+	}
+}

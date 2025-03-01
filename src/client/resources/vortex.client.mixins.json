@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.bug1312.vortex.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"WorldRendererMixin",
+		"KeyboardInputMixin",
+		"GameRendererAccessor",
+		"ClientPlayerEntityMixin",
+		"EntityMixin",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

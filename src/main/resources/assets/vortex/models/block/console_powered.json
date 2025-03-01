@@ -1,0 +1,8 @@
+{
+	"credit": "Made by ranafangirl",
+	"parent": "vortex:block/console",
+	"textures": {
+		"side": "vortex:block/console_side_powered",
+		"top": "vortex:block/console_top_powered"
+	}
+}

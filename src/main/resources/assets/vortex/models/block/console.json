@@ -1,0 +1,10 @@
+{
+	"credit": "Made by ranafangirl",
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "vortex:block/console_bottom",
+		"side": "vortex:block/console_side",
+		"top": "vortex:block/console_top",
+		"particle": "vortex:block/console_bottom"
+	}
+}

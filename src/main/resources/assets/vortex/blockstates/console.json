@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"powered=false": {
+			"model": "vortex:block/console"
+		},
+		"powered=true": {
+			"model": "vortex:block/console_powered"
+		}
+	}
+}
